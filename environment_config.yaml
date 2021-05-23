@@ -1,0 +1,14 @@
+environment_config:
+  path: env_config.dart
+  class: EnvConfig
+  fields:
+    ENV:
+      env_var: APP_ENV
+      default: 'development'
+      dotenv: true
+    APP_TITLE:
+      default: 'Short Story'
+      dotenv: true
+    APP_VERSION:
+      default:  1.0.0
+      dotenv: true
